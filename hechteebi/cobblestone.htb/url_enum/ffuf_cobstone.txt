@@ -1,0 +1,31 @@
+        /'___\  /'___\           /'___\       
+       /\ \__/ /\ \__/  __  __  /\ \__/       
+       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\      
+        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/      
+         \ \_\   \ \_\  \ \____/  \ \_\       
+          \/_/    \/_/   \/___/    \/_/       
+
+       v2.1.0-dev
+________________________________________________
+
+ :: Method           : GET
+ :: URL              : http://cobblestone.htb/FUZZ
+ :: Wordlist         : FUZZ: /home/n0d0pe/hack_the_box/cobblestone/url_enum/web_list.txt
+ :: Follow redirects : false
+ :: Calibration      : false
+ :: Timeout          : 10
+ :: Threads          : 40
+ :: Matcher          : Response status: 200-299,301,302,307,401,403,405,500
+________________________________________________
+
+.htpasswd               [Status: 403, Size: 280, Words: 20, Lines: 10, Duration: 3217ms]
+.htaccess               [Status: 403, Size: 280, Words: 20, Lines: 10, Duration: 6979ms]
+css                     [Status: 301, Size: 316, Words: 20, Lines: 10, Duration: 241ms]
+db                      [Status: 301, Size: 315, Words: 20, Lines: 10, Duration: 239ms]
+img                     [Status: 301, Size: 316, Words: 20, Lines: 10, Duration: 219ms]
+javascript              [Status: 301, Size: 323, Words: 20, Lines: 10, Duration: 241ms]
+js                      [Status: 301, Size: 315, Words: 20, Lines: 10, Duration: 220ms]
+server-status           [Status: 403, Size: 280, Words: 20, Lines: 10, Duration: 243ms]
+skins                   [Status: 301, Size: 318, Words: 20, Lines: 10, Duration: 222ms]
+templates               [Status: 301, Size: 322, Words: 20, Lines: 10, Duration: 219ms]
+vendor                  [Status: 301, Size: 319, Words: 20, Lines: 10, Duration: 221ms]
